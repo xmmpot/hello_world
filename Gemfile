@@ -5,10 +5,12 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
-
+#bootstrap lib
 gem 'bootstrap-sass', '~> 3.3.6'
+#font awesome lib
+gem 'font-awesome-sass', '~> 4.5.0'
 
-
+#postgresql database for production
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
